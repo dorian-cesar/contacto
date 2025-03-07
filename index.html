@@ -15,7 +15,7 @@
                 
                 $.ajax({
                     type: 'POST',
-                    url: 'send_mail.php',
+                    url: 'https://masgps-bi.wit.la/contacto/send_mail.php',
                     data: $(this).serialize(),
                     success: function(response) {
                         $('#loader').hide(); // Ocultar el loader al recibir respuesta
